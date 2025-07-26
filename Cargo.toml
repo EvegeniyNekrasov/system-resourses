@@ -1,0 +1,12 @@
+[package]
+name = "system-resourses"
+version = "0.1.0"
+edition = "2024"
+licence = "MIT"
+author 	= "Evgeniy A. Nekrasov"
+
+[dependencies]
+color-eyre = "0.6.5"
+crossterm = "0.29.0"
+ratatui = {version = "0.28.0", features = ["all-widgets"]}
+sysinfo = "0.36.1"
